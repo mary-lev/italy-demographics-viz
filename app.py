@@ -4,7 +4,9 @@ import pandas as pd
 import pydeck as pdk
 import streamlit as st
 import geopandas as gpd
+from st_pages import show_pages_from_config, add_page_title
 
+show_pages_from_config()
 
 st.title("Provincial Demographics: The Migrant Ratio")
 

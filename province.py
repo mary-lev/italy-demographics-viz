@@ -27,7 +27,7 @@ def determine_color(row):
 @st.cache_data
 def load_data():
     csv_data = pd.read_csv('data/STRASA_2022_en_Provinces.csv', skiprows=1)
-    with open("geojson-italy/geojson/limits_IT_provinces.geojson", 'r') as f:
+    with open("data/limits_IT_provinces.geojson", 'r') as f:
         data = json.load(f)
 
     return csv_data, data

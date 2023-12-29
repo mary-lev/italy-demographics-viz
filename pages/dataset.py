@@ -6,6 +6,17 @@ add_page_title()
 show_pages_from_config()
 
 st.write("""
-        ## About
+        ## Original dataset and mushup datasets
+         Some text here
+         
+        ## Quality analysis of the datasets
+         
+        ## Legal analysis (privacy, license, purpose, etc.)
+         
+        ## Ethics anlysis
+        
+        ## Technical analysis (formats, metadati, URI, provenance)
+        
+        ## Sostenibility of the update the datasets over the time
         """
 )

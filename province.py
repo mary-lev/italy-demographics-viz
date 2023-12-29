@@ -34,7 +34,7 @@ def load_data():
 
 @st.cache_data
 def load_population():
-    csv_data = pd.read_csv('data/Bilancio demografico mensile.csv')
+    csv_data = pd.read_csv('data/Bilancio_demografico_mensile.csv')
     return csv_data
 
 csv_data, geojson_data = load_data()

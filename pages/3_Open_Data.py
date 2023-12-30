@@ -1,10 +1,13 @@
 import streamlit as st
-from st_pages import show_pages_from_config, add_page_title
 
-show_pages_from_config()
+st.set_page_config(
+    page_title = "LOD",
+    page_icon = ":linked_paperclips:"
+)
+
+st.title("Metadata for STRASA 2022 Provincial Data: Resident Foreigners")
 
 st.write("""
-        ## Metadata for STRASA 2022 Provincial Data: Resident Foreigners
         ### 1. Dataset Overview
         Dataset Name: Resident Foreigners on 1st January 2022 by Age and Sex
         Description: This dataset provides demographic information about the foreign resident population in various Italian provinces as of 1st January 2022, detailing age and gender distribution.

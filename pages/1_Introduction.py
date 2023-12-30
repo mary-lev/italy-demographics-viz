@@ -1,9 +1,10 @@
 import streamlit as st
-from st_pages import show_pages_from_config, add_page_title
 
-add_page_title()
-
-show_pages_from_config()
+st.set_page_config(
+    page_title = "Introduction",
+    page_icon = ":books:"
+)
+st.title("Provincial Demographics: The Migrant Ratio")
 
 st.write("""
         ## About

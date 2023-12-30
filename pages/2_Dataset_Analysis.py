@@ -1,9 +1,9 @@
 import streamlit as st
-from st_pages import show_pages_from_config, add_page_title
 
-add_page_title()
-
-show_pages_from_config()
+st.set_page_config(
+    page_title = "Dataset Analysis",
+    page_icon = ":file_cabinet:",
+)
 
 st.write("""
         ## Original dataset and mushup datasets

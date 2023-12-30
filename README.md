@@ -1,6 +1,6 @@
 # Provincial Demographics: The Migrant Ratio
 
-This project is a Streamlit application that visualizes the demographics of provinces, focusing on the migrant ratio.
+This project is a [Streamlit application](https://italy-demographics-viz.streamlit.app/) that visualizes the demographics of provinces, focusing on the migrant ratio.
 
 ## Installation
 
